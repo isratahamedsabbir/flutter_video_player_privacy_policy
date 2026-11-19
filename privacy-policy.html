@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy — Video Player</title>
+<meta name="description" content="Privacy Policy for the offline Video Player Android app. No data collection, no ads, no Internet permission.">
+<!-- Replace [YOUR_EMAIL] below with a working contact email before publishing. -->
+<style>
+  :root {
+    color-scheme: dark;
+    --bg: #07080c;
+    --panel: #10141c;
+    --panel-2: #151b26;
+    --text: #e6ecf5;
+    --muted: #9aabc2;
+    --line: #232c3b;
+    --accent: #2bd9c8;
+    --warn: #ffb454;
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    background:
+      radial-gradient(1000px 520px at 15% -10%, rgba(43, 217, 200, 0.14), transparent 60%),
+      radial-gradient(900px 620px at 100% 0%, rgba(43, 100, 217, 0.16), transparent 55%),
+      var(--bg);
+    color: var(--text);
+    font: 16px/1.7 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+  }
+  .wrap { max-width: 820px; margin: 0 auto; padding: 48px 22px 80px; }
+  header { padding-bottom: 26px; border-bottom: 1px solid var(--line); margin-bottom: 34px; }
+  .badge {
+    display: inline-flex; align-items: center; gap: 8px;
+    font-size: 12px; letter-spacing: 0.08em; text-transform: uppercase;
+    color: var(--accent); border: 1px solid rgba(43, 217, 200, 0.35);
+    background: rgba(43, 217, 200, 0.07); border-radius: 999px;
+    padding: 6px 12px;
+  }
+  .dot { width: 7px; height: 7px; border-radius: 50%; background: var(--accent); }
+  h1 { font-size: clamp(30px, 5vw, 42px); line-height: 1.15; margin: 18px 0 10px; letter-spacing: -0.02em; }
+  .meta { color: var(--muted); font-size: 14px; margin: 0; }
+  h2 {
+    font-size: 21px; line-height: 1.3; margin: 40px 0 12px;
+    letter-spacing: -0.01em; scroll-margin-top: 20px;
+  }
+  h2 .num { color: var(--accent); font-variant-numeric: tabular-nums; margin-right: 8px; }
+  p, li { color: #cfd9e6; }
+  ul { padding-left: 22px; }
+  li { margin: 6px 0; }
+  a { color: var(--accent); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  strong { color: #fff; }
+  .summary {
+    background: linear-gradient(180deg, var(--panel-2), var(--panel));
+    border: 1px solid var(--line); border-radius: 16px;
+    padding: 20px 22px; margin: 26px 0 0;
+  }
+  .summary p { margin: 0; color: #dbe4ef; }
+  .callout {
+    border-left: 3px solid var(--warn);
+    background: rgba(255, 180, 84, 0.08);
+    border-radius: 0 12px 12px 0;
+    padding: 14px 18px; margin: 18px 0;
+  }
+  .callout p { margin: 0; color: #ffe1b3; }
+  table { width: 100%; border-collapse: collapse; margin: 14px 0; font-size: 15px; }
+  th, td { text-align: left; padding: 11px 12px; border-bottom: 1px solid var(--line); vertical-align: top; }
+  th { color: var(--muted); font-weight: 600; font-size: 13px; letter-spacing: 0.04em; text-transform: uppercase; }
+  code {
+    background: var(--panel-2); border: 1px solid var(--line);
+    border-radius: 6px; padding: 1px 6px; font-size: 0.92em;
+    font-family: ui-monospace, SFMono-Regular, Consolas, monospace;
+  }
+  .contact {
+    margin-top: 14px; padding: 18px 20px; background: var(--panel);
+    border: 1px solid var(--line); border-radius: 14px;
+  }
+  footer { margin-top: 52px; padding-top: 20px; border-top: 1px solid var(--line); color: var(--muted); font-size: 13px; }
+  @media (max-width: 520px) {
+    .wrap { padding-top: 32px; }
+    th, td { padding: 9px 8px; }
+  }
+</style>
+</head>
+<body>
+<main class="wrap">
+  <header>
+    <span class="badge"><span class="dot"></span> Video Player · Android</span>
+    <h1>Privacy Policy</h1>
+    <p class="meta">Effective date: November 10, 2026 &middot; Last updated: November 10, 2026</p>
+    <div class="summary">
+      <p><strong>In short:</strong> Video Player works fully offline. It has no Internet permission, no account, no analytics, no advertising, and no server. Everything the app reads or stores stays on your device.</p>
+    </div>
+  </header>
+
+  <p>
+    This Privacy Policy applies to the Android application <strong>Video Player</strong>
+    (package name <code>com.sabbir.videoplayer</code>), published by <strong>Sabbir</strong>
+    (&ldquo;we&rdquo;, &ldquo;us&rdquo;). It explains what the app accesses, what it stores
+    on your device, and what it does not collect.
+  </p>
+
+  <h2 id="no-collection"><span class="num">1.</span>Information we do not collect</h2>
+  <ul>
+    <li>We do not collect, transmit, sell, or share personal data.</li>
+    <li>No account, name, email address, phone number, location, contacts, camera, microphone, or advertising ID is collected.</li>
+    <li>The app does not request the <code>INTERNET</code> permission, so it cannot send your data anywhere.</li>
+    <li>There are no analytics, crash-reporting, advertising, or tracking SDKs.</li>
+  </ul>
+
+  <h2 id="videos"><span class="num">2.</span>Access to your videos</h2>
+  <ul>
+    <li>With your permission, the app reads video files from your device&rsquo;s media library (Android MediaStore) so it can list, search, play, rename, hide, and delete videos that you choose.</li>
+    <li>On Android 13 and later, this uses <code>READ_MEDIA_VIDEO</code>. On Android 14 and later, the app also supports limited access (&ldquo;Select photos and videos&rdquo;) through <code>READ_MEDIA_VISUAL_USER_SELECTED</code>; in that case only the videos you select are visible to the app.</li>
+    <li>On Android 12 and lower, this uses <code>READ_EXTERNAL_STORAGE</code>, limited to those versions.</li>
+    <li>The app does not access photos, audio files, documents, or other files &mdash; only videos.</li>
+    <li>All playback happens locally on your device.</li>
+  </ul>
+
+  <h2 id="hidden"><span class="num">3.</span>Hidden (private) videos</h2>
+  <ul>
+    <li>If you choose <strong>Hide</strong>, the app copies the selected video into its private, app-specific storage (the <code>hidden_videos</code> folder inside the app&rsquo;s internal storage), then asks the system to delete the original from your gallery. That deletion requires your confirmation in a system dialog.</li>
+    <li>While hidden, the video is not visible to other apps or the system gallery.</li>
+    <li>You can restore a hidden video from inside the app. The app copies it back to <code>Movies/Video Player</code> and deletes the private copy.</li>
+  </ul>
+  <div class="callout">
+    <p><strong>Important:</strong> hidden videos exist only inside the app&rsquo;s private storage. If you uninstall the app, clear its data, or lose the device, those hidden videos are permanently deleted and cannot be recovered. Restore anything you want to keep before uninstalling.</p>
+  </div>
+
+  <h2 id="pin"><span class="num">4.</span>PIN protection</h2>
+  <ul>
+    <li>The hidden-videos PIN is stored only on your device as a salted PBKDF2 hash (with a random salt) in the app&rsquo;s private preferences. The PIN itself is never stored or transmitted.</li>
+    <li>There is no server, account, or recovery service. If you forget the PIN, the app cannot recover it, and the settings screen requires the current PIN before you can set a new one.</li>
+  </ul>
+
+  <h2 id="local-data"><span class="num">5.</span>Other data stored on your device</h2>
+  <ul>
+    <li>Playback positions, app settings, and per-video interface state are stored locally using Android SharedPreferences.</li>
+    <li>Temporary copies of videos and notification artwork may be written to the app&rsquo;s cache directory. Android may clear the cache at any time.</li>
+    <li>This data stays on your device. It is not backed up to Google or any cloud service: the app disables Android backup and device-to-device data transfer (<code>allowBackup="false"</code> and exclusion rules).</li>
+  </ul>
+
+  <h2 id="permissions"><span class="num">6.</span>Permissions and why they are used</h2>
+  <table>
+    <thead>
+      <tr><th>Permission / feature</th><th>Purpose</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>Read media (videos)</td><td>List and play your local videos.</td></tr>
+      <tr><td>Notifications (Android 13+)</td><td>Show playback controls in the notification. Optional; the app still works if denied.</td></tr>
+      <tr><td>Foreground service (media playback)</td><td>Keep audio playing when the app is in the background.</td></tr>
+      <tr><td>Wake lock</td><td>Keep the screen on while you are watching, when the &ldquo;Keep screen on&rdquo; setting is enabled.</td></tr>
+      <tr><td>Picture-in-Picture</td><td>Use the system PiP window; no permission prompt.</td></tr>
+    </tbody>
+  </table>
+  <p>The app does not request Internet, location, camera, microphone, contacts, SMS, or phone permissions.</p>
+
+  <h2 id="third-parties"><span class="num">7.</span>Third-party components</h2>
+  <p>
+    The app uses open-source Flutter packages that run on your device and do not transmit data:
+    <code>video_player</code>, <code>photo_manager</code>, <code>audio_service</code>,
+    <code>permission_handler</code>, <code>wakelock_plus</code>, <code>screen_brightness</code>,
+    <code>volume_controller</code>, and <code>shared_preferences</code>.
+    There are no advertising, analytics, or crash-reporting services.
+  </p>
+
+  <h2 id="children"><span class="num">8.</span>Children</h2>
+  <p>
+    The app is a general-purpose utility and is not directed to children under 13.
+    We do not knowingly collect personal information from anyone, including children,
+    because the app does not collect personal information at all.
+  </p>
+
+  <h2 id="choices"><span class="num">9.</span>Your choices and deletion</h2>
+  <ul>
+    <li>You can revoke media access at any time in Android Settings &rarr; Apps &rarr; Video Player &rarr; Permissions. Without it, the app cannot list or play videos.</li>
+    <li>You can delete videos from within the app. Hidden videos should be restored first if you want to keep them.</li>
+    <li>Uninstalling the app or clearing its storage deletes all app-local data, including hidden videos, settings, and the PIN. This cannot be undone.</li>
+    <li>Because we do not collect data, there is no server-side data to request or delete.</li>
+  </ul>
+
+  <h2 id="changes"><span class="num">10.</span>Changes to this policy</h2>
+  <p>
+    If this policy changes, the updated version will be posted at this URL with a new effective date.
+    Continued use of the app after an update means you accept the revised policy.
+  </p>
+
+  <h2 id="contact"><span class="num">11.</span>Contact</h2>
+  <div class="contact">
+    <p>Questions about this Privacy Policy or the app:</p>
+    <p><strong>Email:</strong> <a href="mailto:[YOUR_EMAIL]">[YOUR_EMAIL]</a></p>
+  </div>
+
+  <footer>
+    <p>Video Player &middot; <code>com.sabbir.videoplayer</code> &middot; This policy is provided for Google Play compliance and applies to all versions of the app.</p>
+  </footer>
+</main>
+</body>
+</html>
